@@ -1,0 +1,14 @@
+C:\Users\SSP\Desktop\Materias C2\Admin de Proyectos De Software\TrabajoTdd\MaquinaCafeProject\MaquinaCafeProject\bin\Debug\net8.0\MaquinaCafeProject.exe
+C:\Users\SSP\Desktop\Materias C2\Admin de Proyectos De Software\TrabajoTdd\MaquinaCafeProject\MaquinaCafeProject\bin\Debug\net8.0\MaquinaCafeProject.deps.json
+C:\Users\SSP\Desktop\Materias C2\Admin de Proyectos De Software\TrabajoTdd\MaquinaCafeProject\MaquinaCafeProject\bin\Debug\net8.0\MaquinaCafeProject.runtimeconfig.json
+C:\Users\SSP\Desktop\Materias C2\Admin de Proyectos De Software\TrabajoTdd\MaquinaCafeProject\MaquinaCafeProject\bin\Debug\net8.0\MaquinaCafeProject.dll
+C:\Users\SSP\Desktop\Materias C2\Admin de Proyectos De Software\TrabajoTdd\MaquinaCafeProject\MaquinaCafeProject\bin\Debug\net8.0\MaquinaCafeProject.pdb
+C:\Users\SSP\Desktop\Materias C2\Admin de Proyectos De Software\TrabajoTdd\MaquinaCafeProject\MaquinaCafeProject\obj\Debug\net8.0\MaquinaCafeProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SSP\Desktop\Materias C2\Admin de Proyectos De Software\TrabajoTdd\MaquinaCafeProject\MaquinaCafeProject\obj\Debug\net8.0\MaquinaCafeProject.AssemblyInfoInputs.cache
+C:\Users\SSP\Desktop\Materias C2\Admin de Proyectos De Software\TrabajoTdd\MaquinaCafeProject\MaquinaCafeProject\obj\Debug\net8.0\MaquinaCafeProject.AssemblyInfo.cs
+C:\Users\SSP\Desktop\Materias C2\Admin de Proyectos De Software\TrabajoTdd\MaquinaCafeProject\MaquinaCafeProject\obj\Debug\net8.0\MaquinaCafeProject.csproj.CoreCompileInputs.cache
+C:\Users\SSP\Desktop\Materias C2\Admin de Proyectos De Software\TrabajoTdd\MaquinaCafeProject\MaquinaCafeProject\obj\Debug\net8.0\MaquinaCafeProject.dll
+C:\Users\SSP\Desktop\Materias C2\Admin de Proyectos De Software\TrabajoTdd\MaquinaCafeProject\MaquinaCafeProject\obj\Debug\net8.0\refint\MaquinaCafeProject.dll
+C:\Users\SSP\Desktop\Materias C2\Admin de Proyectos De Software\TrabajoTdd\MaquinaCafeProject\MaquinaCafeProject\obj\Debug\net8.0\MaquinaCafeProject.pdb
+C:\Users\SSP\Desktop\Materias C2\Admin de Proyectos De Software\TrabajoTdd\MaquinaCafeProject\MaquinaCafeProject\obj\Debug\net8.0\MaquinaCafeProject.genruntimeconfig.cache
+C:\Users\SSP\Desktop\Materias C2\Admin de Proyectos De Software\TrabajoTdd\MaquinaCafeProject\MaquinaCafeProject\obj\Debug\net8.0\ref\MaquinaCafeProject.dll
