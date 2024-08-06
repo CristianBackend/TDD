@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
            
-                // Inicialización de los componentes de la máquina de café
+                
                 var cafetera = new Cafetera();
                 cafetera.SetCantidadDeCafe(100);
 
@@ -26,7 +26,7 @@
 
                 var maquinaCafe = new MaquinaCafe(cafetera, vasosPequenos, vasosMedianos, vasosGrandes, azucarero);
 
-                // Interacción con el usuario
+                
                 Console.WriteLine("¡Bienvenido a la Máquina de Café!");
 
                 while (true)
