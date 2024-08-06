@@ -11,7 +11,7 @@ namespace MaquinaCafeTests1
         [TestInitialize]
         public void Setup()
         {
-            // Inicialización de los componentes de la máquina de café
+            
             var cafetera = new Cafetera();
             cafetera.SetCantidadDeCafe(100);
 
@@ -36,30 +36,30 @@ namespace MaquinaCafeTests1
         [TestMethod]
         public void SeleccionarVasoPequeno_DeberiaDevolver3OzDeCafe()
         {
-            // Act
-            var vaso = maquinaCafe.GetTipoVaso("pequeño");
+           
+            var vaso = maquinaCafe.GetTipoVaso("pequeÃ±o");
 
-            // Assert
+            
             Assert.AreEqual(3, vaso.GetContenido());
         }
 
         [TestMethod]
         public void SeleccionarVasoMediano_DeberiaDevolver5OzDeCafe()
         {
-            // Act
+            
             var vaso = maquinaCafe.GetTipoVaso("mediano");
 
-            // Assert
+           
             Assert.AreEqual(5, vaso.GetContenido());
         }
 
         [TestMethod]
         public void SeleccionarVasoGrande_DeberiaDevolver7OzDeCafe()
         {
-            // Act
+            
             var vaso = maquinaCafe.GetTipoVaso("grande");
 
-            // Assert
+          
             Assert.AreEqual(7, vaso.GetContenido());
         }
 
@@ -67,57 +67,57 @@ namespace MaquinaCafeTests1
         
         public void PrepararCafe_ConAzucarValida_DeberiaReducirCantidadDeAzucar()
         {
-            // Arrange
+            
             int cantidadAzucarInicial = maquinaCafe.azucar.GetCantidadDeAzucar();
             int cantidadAzucarDeseada = 2;
 
-            // Act
+            
             maquinaCafe.GetVasoDeCafe("mediano", 1, cantidadAzucarDeseada);
 
-            // Assert
+            
             int cantidadAzucarEsperada = cantidadAzucarInicial - cantidadAzucarDeseada;
             Assert.AreEqual(cantidadAzucarEsperada, maquinaCafe.azucar.GetCantidadDeAzucar(),
-                $"Error: Se esperaba que la cantidad de azúcar fuera {cantidadAzucarEsperada}, pero fue {maquinaCafe.azucar.GetCantidadDeAzucar()}.");
+                $"Error: Se esperaba que la cantidad de azÃºcar fuera {cantidadAzucarEsperada}, pero fue {maquinaCafe.azucar.GetCantidadDeAzucar()}.");
         }
 
 
         [TestMethod]
         public void SinVasos_DeberiaMostrarMensajeError()
         {
-            // Arrange
-            maquinaCafe.GetTipoVaso("pequeño").SetCantidadVasos(0);
+           
+            maquinaCafe.GetTipoVaso("pequeÃ±o").SetCantidadVasos(0);
 
-            // Act
-            var mensaje = maquinaCafe.GetVasoDeCafe("pequeño", 1, 1);
+           
+            var mensaje = maquinaCafe.GetVasoDeCafe("pequeÃ±o", 1, 1);
 
-            // Assert
+            
             Assert.AreEqual("Error: No hay vasos disponibles.", mensaje);
         }
 
         [TestMethod]
         public void SinAzucar_DeberiaMostrarMensajeError()
         {
-            // Arrange
+            
             maquinaCafe.azucar.SetCantidadDeAzucar(0);
 
-            // Act
-            var mensaje = maquinaCafe.GetVasoDeCafe("pequeño", 1, 1);
+            
+            var mensaje = maquinaCafe.GetVasoDeCafe("pequeÃ±o", 1, 1);
 
-            // Assert
-            Assert.AreEqual("Error: No hay azúcar disponible.", mensaje);
+            
+            Assert.AreEqual("Error: No hay azÃºcar disponible.", mensaje);
         }
 
         [TestMethod]
         public void SinCafe_DeberiaMostrarMensajeError()
         {
-            // Arrange
+            
             maquinaCafe.cafe.SetCantidadDeCafe(0);
 
-            // Act
-            var mensaje = maquinaCafe.GetVasoDeCafe("pequeño", 1, 1);
+          
+            var mensaje = maquinaCafe.GetVasoDeCafe("pequeÃ±o", 1, 1);
 
-            // Assert
-            Assert.AreEqual("Error: No hay café disponible.", mensaje);
+            
+            Assert.AreEqual("Error: No hay cafÃ© disponible.", mensaje);
         }
     }
 }
